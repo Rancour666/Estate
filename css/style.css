@@ -272,13 +272,9 @@ h6 {
   height: 5rem;
   overflow: hidden;
   border-radius: 50%;
-  outline: 0.125rem solid rgb(202, 204, 209);
-}
-
-.author__author-image-ibg img {
-  -webkit-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+  -webkit-box-shadow: 0 0 0.125rem 0.0625rem #333333;
+          box-shadow: 0 0 0.125rem 0.0625rem #333333;
+  display: block;
 }
 
 .author__author-name {
@@ -2253,12 +2249,6 @@ h6 {
 @media (any-hover: hover) {
   .author:hover .author__author-name {
     color: #FF8A63;
-  }
-
-  .author:hover .author__author-image-ibg img {
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
   }
 
   .menu__link:hover {
