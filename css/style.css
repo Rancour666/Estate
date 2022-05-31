@@ -533,12 +533,10 @@ h6 {
   background-color: #F9FAFB;
   border: 0.0625rem solid #E5E7EB;
   border-radius: 0.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+  grid-template-columns: 1fr auto;
   gap: 0.4375rem;
   padding: 0.4375rem 0.4375rem 0.4375rem 2.125rem;
   position: relative;
@@ -547,9 +545,6 @@ h6 {
 .menu-footer__input {
   height: 100%;
   background-color: #F9FAFB;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
 }
 
 .menu-footer__input._form-focus {
