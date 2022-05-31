@@ -536,6 +536,9 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   gap: 0.4375rem;
   padding: 0.4375rem 0.4375rem 0.4375rem 2.125rem;
   position: relative;
@@ -543,9 +546,10 @@ h6 {
 
 .menu-footer__input {
   height: 100%;
+  background-color: #F9FAFB;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 100%;
-          flex: 1 1 100%;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .menu-footer__input._form-focus {
@@ -2228,12 +2232,6 @@ h6 {
 
   .menu-footer__row-form {
     width: 100%;
-  }
-
-  .menu-footer__input {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 100%;
-            flex: 0 1 100%;
   }
 
   .listings__content {
