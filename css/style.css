@@ -2226,6 +2226,16 @@ h6 {
             transform: rotate(40deg);
   }
 
+  .menu-footer__row-form {
+    width: 100%;
+  }
+
+  .menu-footer__input {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+
   .listings__content {
     margin: 0 -0.9375rem;
   }
