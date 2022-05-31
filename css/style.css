@@ -552,7 +552,6 @@ h6 {
 }
 
 .menu-footer__button {
-  justify-self: flex-end;
   padding: 0.5rem;
   line-height: 140%;
   color: #FFFFFF;
